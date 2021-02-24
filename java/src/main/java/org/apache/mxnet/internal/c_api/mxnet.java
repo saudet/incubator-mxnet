@@ -61,6 +61,6 @@ public class mxnet implements InfoMapper {
                              "DataIterCreator", "DataIterHandle", "DatasetCreator", "DatasetHandle", "BatchifyFunctionCreator", "BatchifyFunctionHandle","KVStoreHandle",
                              "RecordIOHandle", "RtcHandle", "CudaModuleHandle", "CudaKernelHandle", "ProfileHandle", "DLManagedTensorHandle", "ContextHandle",
                              "EngineFnPropertyHandle", "EngineVarHandle", "MXNetFunctionHandle", "MXNetObjectHandle", "OpHandle", "SymbolHandle", "GraphHandle",
-                             "OptimizerCreator", "OptimizerHandle", "PredictorHandle").cast().javaNames("Pointer").valueTypes("Pointer").pointerTypes("PointerPointer"));
+                             "OptimizerCreator", "OptimizerHandle", "PredictorHandle").cast().javaNames("Pointer").valueTypes("long").pointerTypes("PointerPointer"));
     }
 }
